@@ -31,7 +31,7 @@ struct AimSettings {
     // --- Player preferences ---
     AimZone zone = AimZone::kHead;      ///< Which part of a target to steer towards.
     float strength = 0.6f;              ///< 0 to 1: how quickly the aim closes on a target.
-    float fovRadiusPx = 220.0f;         ///< Targets further than this from the crosshair are left alone.
+    float fovRadiusPx = 270.0f;         ///< Targets further than this from the crosshair are left alone.
     int priority = 0;                   ///< Which target to prefer: 0 closest to the crosshair, 1 biggest, 2 most certain.
     float yieldWhileLooking = 0.4f;     ///< Fraction of the assist kept while the player is steering themselves (at full steering).
     AfterLanding afterLanding = AfterLanding::kKeepFollowing;
